@@ -36,9 +36,7 @@ export function Card({
           >
             <CalendarIcon className="w-5 h-5 text-gray-400" />
             <span className="hidden lg:inline-block">Filed</span>
-            <span className="text-gray-400 truncate max-w-[150px] lg:max-w-none">
-              - {createdAt}
-            </span>
+            <span className="text-gray-400 truncate">- {createdAt}</span>
           </Flex>
 
           <Flex
@@ -47,9 +45,7 @@ export function Card({
           >
             <CalendarDaysIcon className="w-5 h-5 text-gray-400" />
             <span className="hidden lg:inline-block">Due</span>
-            <span className="text-gray-400 truncate max-w-[150px] lg:max-w-none">
-              - {dueDate}
-            </span>
+            <span className="text-gray-400 truncate">- {dueDate}</span>
           </Flex>
 
           <Flex
@@ -58,7 +54,7 @@ export function Card({
           >
             <MapPinIcon className="w-5 h-5 text-gray-400" />
             <span className="hidden lg:inline-block">Address</span>
-            <span className="text-gray-400 truncate max-w-[150px] lg:max-w-none">
+            <span className="text-gray-400 truncate">
               - {address.line1}, {address.city} {address.postCode}{' '}
               {address.country}
             </span>
