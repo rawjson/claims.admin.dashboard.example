@@ -1,4 +1,4 @@
-# Admin dashboard example for insurance company.
+Admin dashboard example for insurance company.
 
 ```bash
 npm run dev
